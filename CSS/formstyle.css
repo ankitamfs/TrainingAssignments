@@ -1,0 +1,54 @@
+.main-header {
+  text-align: center;
+  width: 100%;
+  }
+
+p{
+  color: white;
+    font-size: 29px;
+    font-family: monospace;
+    padding-top: 10px;
+  }
+
+
+.left {
+  float: left;
+  width: 50px;
+  border: 0px;
+  padding: 2px;
+}
+
+div {
+  margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 454px;
+    margin-left: 405px;
+    background-color: cadetblue;
+    height: 55px;
+}
+
+#aa {
+     margin-top: -137px;
+    margin-bottom: 100px;
+    margin-right: 455px;
+    margin-left: 404px;
+    border: 1px solid yellow;
+    background-color: lightyellow;
+    padding: 25px;
+    height: auto;
+}
+
+
+
+
+
+.button {
+ background-color: cadetblue;
+    border: none;
+    color: white;
+    padding: 15px 52px;
+    font-size: 21px;
+    margin: 21px 200px 4px 232px;
+    border-radius: 8px;
+
+}
