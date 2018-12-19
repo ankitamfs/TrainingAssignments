@@ -1,0 +1,142 @@
+.main-header {
+    text-align: center;
+    width: 100%;
+    height: auto;
+  }
+
+#headerImage{
+  height: 130px;
+  width: 100%;
+}
+
+p{
+    color: white;
+    font-size: 29px;
+    font-family: monospace;
+    padding-top: 10px;
+  }
+
+
+.left {
+    float: left;
+    width: 50px;
+    border: 0px;
+    padding: 2px;
+}
+
+.address{
+  width: 167px;
+}
+
+.registration {
+    margin-top: 0px;
+    margin-right: 454px;
+    margin-left: 405px;
+    background-color: cadetblue;
+    height: 55px;
+    width: 464px;
+}
+
+#align {
+    margin-top: 0px;
+    margin-right: 455px;
+    margin-left: 404px;
+    border: 1px solid yellow;
+    background-color: lightyellow;
+    padding: 25px 0px;
+    height: auto;
+    width: 464px;
+}
+
+#dob{
+    width: 169px;
+}
+
+#banner{
+    height: 130px;
+}
+
+
+.footer {
+   background-color: cadetblue;
+    border: none;
+    color: white;
+    padding: 3px 5px;
+    font-size: 16px;
+    text-align: center;
+    font-family: monospace;
+
+}
+
+.footer:hover {
+  background-color: RoyalBlue;
+}
+
+#button{
+    background-color: cadetblue;
+    border: none;
+    color: white;
+    padding: 6px 21px;
+    font-size: 16px;
+    margin: 21px 200px 4px 163px;
+    text-align: center;
+    border-radius: 8px;
+
+}
+
+#captchans{  
+    margin: 4px 200px 4px 146px;
+    width: 113px;
+    padding: 5px;
+}
+
+.btn{
+  background-color: cadetblue;
+    border: none;
+    color: white;
+    font-size: 16px;
+    margin: 10px 191px 9px 145px;
+    text-align: center;
+    font-family: monospace;
+    height: 25px;
+    padding: 3px;
+
+}
+
+.color{
+  color: red;
+}
+
+@media screen and (max-width: 600px)
+{
+  #headerImage{
+    max-height: 130px;
+    width: 100%;
+  
+
+  }
+
+  .registration, #align{
+    width: 100%;
+    margin-left: 0px;
+    }
+
+    #formDiv{
+      width: 100%;
+      position: relative;
+    }
+
+    .btn{
+      position: relative;
+      min-width: 120px;
+      max-width: 120px;
+    }
+}
+
+
+
+  
+  
+
+
+
