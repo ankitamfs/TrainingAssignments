@@ -29,7 +29,7 @@ p{
 }
 
 .registration {
-    margin-top: 0px;
+    margin-top: -75px;
     margin-right: 454px;
     margin-left: 405px;
     background-color: cadetblue;
@@ -49,7 +49,7 @@ p{
 }
 
 #dob{
-    width: 169px;
+    width: 167px;
 }
 
 #banner{
@@ -78,14 +78,14 @@ p{
     color: white;
     padding: 6px 21px;
     font-size: 16px;
-    margin: 21px 200px 4px 163px;
+    margin: 21px 200px 4px 190px;
     text-align: center;
     border-radius: 8px;
 
 }
 
 #captchans{  
-    margin: 4px 200px 4px 146px;
+    margin: 4px 200px 4px 174px;
     width: 113px;
     padding: 5px;
 }
@@ -95,7 +95,7 @@ p{
     border: none;
     color: white;
     font-size: 16px;
-    margin: 10px 191px 9px 145px;
+    margin: 10px 163px 9px 174px;
     text-align: center;
     font-family: monospace;
     height: 25px;
@@ -105,6 +105,26 @@ p{
 
 .color{
   color: red;
+}
+
+#divOffer{
+  width: 330px;
+}
+
+#offer{
+  width: inherit;
+  position: relative;
+  animation-duration: 6s;
+  animation-name: offer;
+  opacity: 0;
+  animation-iteration-count: infinite;
+}
+
+@keyframes offer {
+  0%   {opacity: 0.1}
+  25%  {opacity: 0.4}
+  50%  {opacity: 0.7}
+  100% {opacity: 1}
 }
 
 @media screen and (max-width: 600px)
@@ -119,7 +139,15 @@ p{
   .registration, #align{
     width: 100%;
     margin-left: 0px;
+    margin-top: auto;
     }
+
+    #divOffer{
+      width: 100%;
+    margin-top: 0;
+    }
+
+
 
     #formDiv{
       width: 100%;
